@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "name": "Abhilash",
+      "job": "PAT",
+      "email": "abhi@gmail.com",
+      "salary": "60000",
+      "id": 1
+    },
+    {
+      "name": "Arnab",
+      "job": "Teacher",
+      "email": "arnab@gmail.com",
+      "salary": "20000",
+      "id": 2
+    },
+    {
+      "name": "Debnath",
+      "job": "SBI Clerk",
+      "email": "debnath@gmail.com",
+      "salary": "35000",
+      "id": 3
+    },
+    {
+      "name": "Joy",
+      "job": "Clerk",
+      "email": "joy@gmail.com",
+      "salary": "25000",
+      "id": 4
+    },
+    {
+      "name": "Debnath Das",
+      "job": "SBI Clerk",
+      "email": "dbu@gmail.com",
+      "salary": "40000",
+      "id": 5
+    }
+  ]
+}

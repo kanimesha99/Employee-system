@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+}
+
+/* pagenotfound */
+.page-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container h1{
+    letter-spacing: 0.1ch;
+}
+
+/* home-container */
+.home-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container h2{
+    letter-spacing: 0.1ch;
+}
+
+/* addemployee */
+.formbar{
+    padding: 40px !important;
+}
+
+
+/* employee container  */
+.employee-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-container span{
+    font-size: 18px;
+    letter-spacing: 0.2ch;
+    font-weight: 600;
+}
+
+/* editemployee */
+.editformbar{
+    padding: 30px !important;
+}
+
+/* searchbar  */
+.searchbar{
+    display: flex;
+}
