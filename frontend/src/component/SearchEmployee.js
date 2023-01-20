@@ -9,7 +9,7 @@ const SearchEmployee = () => {
     let [employeeData, setEmployeeData] = useState([]);
 
     useEffect(() => {
-        axios.get(`http://localhost:8082/employees`)
+        axios.get(`http://examination.24x7retail.com`)
             .then((res) =>
                 setEmployeeData(res.data))
             .catch((err) => {

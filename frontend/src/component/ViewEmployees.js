@@ -7,7 +7,7 @@ const ViewEmployees = () => {
   const [employeeData, setEmployeeData] = useState([]);
 
   const fetchEmployeeData = () => {
-    axios.get('http://localhost:8082/employees')
+    axios.get('http://examination.24x7retail.com/api/v1.0/Employees')
       .then((res) =>
         setEmployeeData(res.data))
       .catch((err) => {
@@ -20,7 +20,7 @@ const ViewEmployees = () => {
   }, [])
 
   const deleteData = (id) => {
-    axios.delete(`http://localhost:8082/employees/${id}`)
+    axios.delete(`http://examination.24x7retail.com/${id}`)
       .then(() => {
         fetchEmployeeData();
       })

@@ -24,7 +24,7 @@ const EditEmployee = () => {
     let empId = useParams().id;
 
     useEffect(() => {
-        axios.get(`http://localhost:8082/employees/${empId}`)
+        axios.get(`http://examination.24x7retail.com//api/v1.0/Employee${empId}`)
             .then((res) =>
                 setEmployeeData(res.data))
             .catch((err) => {

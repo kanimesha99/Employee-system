@@ -15,6 +15,7 @@ const AddEmployee = () => {
   });
 
   let [employeeErr, setEmployeeErr] = useState({
+  
     nameErr: "",
     jobErr: "",
     emailErr: "",
@@ -32,7 +33,7 @@ const AddEmployee = () => {
   }
 
   const postRequest = () => {
-    axios.post('http://localhost:8082/employees', employeeData)
+    axios.post('http://examination.24x7retail.com/api/v1.0v/Employee', employeeData)
       .then((data) => {
         history('/employees');
       })

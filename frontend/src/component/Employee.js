@@ -9,7 +9,7 @@ const Employee = () => {
     let id = useParams().id;
 
     useEffect(() => {
-        axios.get(`http://localhost:8082/employees/${id}`)
+        axios.get(`http://examination.24x7retail.com/api/v1.0/Employee/${id}`)
             .then((res) =>
                 setEmployeeData(res.data))
             .catch((err) => {
